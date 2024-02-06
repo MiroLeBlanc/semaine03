@@ -120,9 +120,59 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+
+    height: 987px;
+    width: 1280px;
+    align-items: center;
+    background-color: #e3e4e4;
 }
 
 article{
     height: 711px;
     width: 320px;
+    background-color: white;
+    padding: 10px;
+}
+
+h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.contenu p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contenu .button{
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    background-color: #b7b7b7;
+    height: 40px;
+    width: 150px;
+}
+
+.contenu img{
+    grid-column: span 3;
+}
+
+/*footer*/
+
+footer .wrapper{
+    height: 72px;
+    width: 1280px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
