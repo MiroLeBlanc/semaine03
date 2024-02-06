@@ -14,6 +14,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Dosis', sans-serif;
     background-color: white;
     font-size: 18px;
 }
@@ -50,4 +51,78 @@ header .wrapper{
 
 .logo img{
     padding-right: 20px;
+}
+
+h1{
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a{
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #0E5EA1;
+}
+
+/*section hero*/
+
+.hero .wrapper{
+    background-image: url(../images/montagnes-alpes@1x\ 1.jpg);
+    height: 450px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .boite{
+    background-color: black;
+    height: 119px;
+    width: 455px;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2FCB48;
+    font-weight: 400;
+    margin: 0;
+}
+
+/*section contenu*/
+
+.contenu .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+article{
+    height: 711px;
+    width: 320px;
 }
